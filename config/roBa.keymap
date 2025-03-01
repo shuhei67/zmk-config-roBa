@@ -58,9 +58,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp PAGE_UP    &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp ESCAPE                         &kp PAGE_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_2  &lt 4 SPACE  &lt_to_layer_0 3 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &lt_to_layer_0 5 DELETE
+&kp A             &kp S         &kp D         &kp F                        &kp G        &mkp MB1                           &kp PAGE_UP    &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mkp MB2                           &kp PAGE_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 4 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &lt_to_layer_0 4 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -81,15 +81,6 @@
 &kp AT_SIGN   &kp HASH           &kp NON_US_BACKSLASH  &kp UNDERSCORE  &kp AMPERSAND     &trans      &trans  &kp MINUS          &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
 &kp ASTERISK  &kp DOUBLE_QUOTES  &kp SQT               &kp COLON       &kp SEMICOLON     &trans      &trans  &kp EXCLAMATION    &kp QUESTION   &trans                &trans                 &trans
 &trans        &trans             &trans                &trans          &trans            &trans      &trans  &trans                                                                         &trans
-            >;
-        };
-
-        MOUSE {
-            bindings = <
-&trans          &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
