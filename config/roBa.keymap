@@ -60,7 +60,7 @@
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &mkp MB1                           &kp PAGE_UP    &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mkp MB2                           &kp PAGE_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 4 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &lt_to_layer_0 4 DELETE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 4 LANG_HANGEUL      &kp BACKSPACE  &lt 0 ENTER                             &lt_to_layer_0 4 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -75,12 +75,12 @@
             >;
         };
 
-        symbol {
+        layer_5 {
             bindings = <
-&kp PERCENT   &kp BACKSLASH      &kp PIPE              &kp EQUAL       &kp LEFT_BRACKET                      &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &kp LEFT_BRACE         &kp RIGHT_BRACE
-&kp AT_SIGN   &kp HASH           &kp NON_US_BACKSLASH  &kp UNDERSCORE  &kp AMPERSAND     &trans      &trans  &kp MINUS          &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
-&kp ASTERISK  &kp DOUBLE_QUOTES  &kp SQT               &kp COLON       &kp SEMICOLON     &trans      &trans  &kp EXCLAMATION    &kp QUESTION   &trans                &trans                 &trans
-&trans        &trans             &trans                &trans          &trans            &trans      &trans  &trans                                                                         &trans
+&kp LS(PRCNT)  &kp BSLH       &kp LS(PIPE)  &kp LS(EQUAL)  &kp LBKT                          &kp RBKT      &kp LS(LT)     &kp LS(GT)    &kp LS(LBRC)  &kp LS(RBRC)
+&kp AT_SIGN    &kp LS(POUND)  &kp BSLH      &kp LS(UNDER)  &kp LS(AMPS)  &trans      &trans  &kp MINUS     &kp LS(PLUS)   &kp LS(LPAR)  &kp LS(RPAR)  &kp FSLH
+&kp Z          &kp LS(DQT)    &kp LS(SQT)   &kp COLON      &kp SEMI      &trans      &trans  &kp LS(EXCL)  &kp LS(QMARK)  &trans        &trans        &trans
+&trans         &trans         &trans        &trans         &trans        &trans      &trans  &trans                                                   &trans
             >;
         };
 
